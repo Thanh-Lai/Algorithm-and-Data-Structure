@@ -29,6 +29,6 @@ function mergeSort(arr) {
         rIdx++
       }
     }
-    //remaining plart needs to be addred to the result
+    //remaining plart needs to be added to the result
     return sortedArr.concat(leftSortedArr.slice(lIdx)).concat(rightSortedArr.slice(rIdx))
   }
