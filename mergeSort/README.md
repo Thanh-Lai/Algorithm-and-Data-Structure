@@ -1,5 +1,5 @@
 # Prompt
-Impliment a merge sort algorithm
+Impliment a merge sort algorithm recursively
 
 example:
 Input: [8, 3, 9, 5, 2, 11, 7, 4]
