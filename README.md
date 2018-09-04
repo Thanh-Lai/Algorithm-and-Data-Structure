@@ -1,5 +1,5 @@
 # Decription
-A place to keep track of all the programming challenges I have done.
+A place to keep track of all the programming challenges I have done with test specs.
 
 ## Getting Started
 npm install testem
