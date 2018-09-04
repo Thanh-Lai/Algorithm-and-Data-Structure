@@ -1,0 +1,23 @@
+{
+  "name": "Algos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "testem"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thanh-Lai/Algorithm-and-Data-Structure.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thanh-Lai/Algorithm-and-Data-Structure/issues"
+  },
+  "homepage": "https://github.com/Thanh-Lai/Algorithm-and-Data-Structure#readme",
+  "dependencies": {
+    "testem": "^2.10.0"
+  }
+}
