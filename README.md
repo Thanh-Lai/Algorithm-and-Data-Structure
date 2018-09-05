@@ -1,6 +1,6 @@
 # Decription
 A place to keep track of all the programming challenges I have done on Prampt, Leetcode and Codewars.
-Test specs writing using Jasmine.
+Test specs written using Jasmine.
 
 ## Getting Started
 npm install testem
