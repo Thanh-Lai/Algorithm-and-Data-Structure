@@ -6,8 +6,8 @@ describe('findArrayQuadruplet', function () {
 
     it('output array should be sorted', function () {
         const output = findArrayQuadruplet([2, 7, 4, 0, 9, 5, 1, 3], 9)
-        const sortedOutput = output.slice(0)
-        expect(output).toEqual(sortedOutput.sort((a, b) => a - b))
+        const sortedOutput = output.slice(0).sort((a, b) => a - b)
+        expect(output).toEqual(sortedOutput)
     })
 
     it('should return an empty array if the array length is less than 4', function () {
