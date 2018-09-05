@@ -8,7 +8,7 @@ describe('mergeSort', function () {
         const output = mergeSort([ 8, 3, 9, 5, 2, 11, 7, 4 ])
         expect(Array.isArray(output)).toEqual(true)
     });
-    
+
     it('must work recursively', function () {
         mergeSort([ 8, 3, 9, 5, 2, 11, 7, 4 ])
         expect(merge.calls.count()).toEqual(7)
