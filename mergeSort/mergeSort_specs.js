@@ -5,7 +5,7 @@ describe('mergeSort', function () {
     })
 
     it('returns an array', function () {
-        let output = mergeSort([ 8, 3, 9, 5, 2, 11, 7, 4 ])
+        const output = mergeSort([ 8, 3, 9, 5, 2, 11, 7, 4 ])
         expect(Array.isArray(output)).toEqual(true)
     });
     
