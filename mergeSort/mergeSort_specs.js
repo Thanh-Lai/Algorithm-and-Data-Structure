@@ -3,14 +3,22 @@ describe('mergeSort', function () {
     beforeEach(function() {
         spyOn(window, 'merge').and.callThrough()
     })
-    it('returns a array', function () {
+
+    it('returns an array', function () {
         let output = mergeSort([ 8, 3, 9, 5, 2, 11, 7, 4 ])
         expect(Array.isArray(output)).toEqual(true)
     });
-
+    
     it('must work recursively', function () {
         mergeSort([ 8, 3, 9, 5, 2, 11, 7, 4 ])
         expect(merge.calls.count()).toEqual(7)
+    });
+
+    it('should return the original array if array length is less than 2', function () {
+        let arr = [ 8 ]
+        let output = mergeSort(arr)
+        expect(output).toEqual(arr)
+        expect(merge.calls.count()).toEqual(0)
     });
 
     it('should sort the array', function () {
