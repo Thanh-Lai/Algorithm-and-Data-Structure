@@ -25,5 +25,4 @@ describe('findArrayQuadruplet', function () {
         expect(output).toEqual([ -5, 1, 4, 9 ])
     })
 
-
 });
